@@ -1,13 +1,12 @@
 package snap.plan.entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.Type;
-import snap.global.entity.BaseTimeEntity;
+import snap.common.entity.BaseTimeEntity;
 import snap.member.entity.Member;
 import snap.photographer.entity.Photographer;
 import snap.review.entity.Review;

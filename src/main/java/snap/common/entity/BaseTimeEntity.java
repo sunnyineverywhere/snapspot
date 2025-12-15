@@ -1,4 +1,4 @@
-package snap.global.entity;
+package snap.common.entity;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

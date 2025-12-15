@@ -4,11 +4,10 @@ import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import snap.global.entity.BaseTimeEntity;
+import snap.common.entity.BaseTimeEntity;
 import snap.plan.entity.Plan;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
 
 @Entity
 @Getter
