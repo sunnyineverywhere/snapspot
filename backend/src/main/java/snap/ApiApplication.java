@@ -14,8 +14,8 @@ import java.util.TimeZone;
 @EnableBatchProcessing
 @EnableScheduling
 @EnableJpaAuditing
-@EntityScan(basePackages = {"snap"})
-@EnableJpaRepositories(basePackages = {"snap"})
+@EntityScan(basePackages = { "snap" })
+@EnableJpaRepositories(basePackages = { "snap" })
 @SpringBootApplication
 public class ApiApplication {
 
